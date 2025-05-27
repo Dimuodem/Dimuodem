@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hardware System</title>
+  <link rel="stylesheet" href="Style1.css" />
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+}
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #003366;
+  padding: 20px;
+  color: #fff;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 10px;
+  display: block;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #005599;
+}
+
+.main {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cards {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.updates {
+  background: rgb(128, 127, 127);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.updates ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+}
+
+
+</style>
+  
+</head>
+<body>
+
+
+  <header>
+    <div class="container nav">
+     <img src="./sytem.png" alt="Logo" class="logo" style="height: 100px; " />
+
+  <nav>
+     <a href="Index.html">Home</a>
+  <a href="Dashboard.html">Dashboard</a>
+
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Our Products</a>
+    <div class="dropdown-content">
+      <a href="Item.html">Items</a>
+      <a href= "cartegories.html">Categories</a>
+      <a href="Delivery.html">Deliveries</a>
+      <a href="NewItems.html">New Items</a>
+      
+    </div>
+  </div>
+
+  <a href="Contact.html">Support Centre</a>
+  <button class="btn">Login / Sign Up</button>
+</nav>
+
+
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="Search for hardware..." />
+      <button class="search-btn">🔍</button>
+    </div>
+  </header>
+
+  <main class="container">
+
+
+  <div class="dashboard-container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>HardwareSystem</h2>
+      <ul>
+        <li><a style="font-weight: bold;" href="#">Dashboard</a></li>
+        <li><a href="#">Inventory</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Categories</a></li>
+       
+        <li><a href="#">Reports</a></li>
+        
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header class="main-header">
+        <h1>Welcome back, Admin 👋</h1>
+        <button class="btn">Logout</button>
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <h3>Inventory</h3>
+          <p>1,230 Items</p>
+        </div>
+        <div class="card">
+          <h3>Orders</h3>
+          <p>328 Pending</p>
+        </div>
+        <div class="card">
+          <h3>Messages</h3>
+          <p>15 New</p>
+        </div>
+      </section>
+
+      <section class="updates">
+        <h2>System Updates</h2>
+        <ul>
+          <li> New stock received today</li>
+          <li>Order #2341 shipped</li>
+          <li> Low stock: Roofing materials</li>
+        </ul>
+      </section>
+    </main>
+
+  </div>
+
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h2>lOCATION</h2>
+        <p>Located in Nairobi CBD
+           Koinange Street  </p>
+      </div>
+
+      <div class="footer-links">
+        <h2>LINKS</h2><br>
+        <a href="Dashboard.html">Dashboard</a><br>
+        <a href="Loans.html">Access Loan</a><br>
+        <a href="Contact.html">Contact Us</a>
+      </div>
+
+
+<div class="contact-icons">
+  <h2>CONTACTS</h2><br>
+  <a href=""><img src="./tiktok-removebg-preview.png" alt="TikTok"></a>
+  <a href=""><img src="./fb-removebg-preview.png" alt="Facebook"></a>
+   <a href=" "><img src="./MAIL-removebg-preview.png" alt="Email"></a>
+ <a href=""><img src="./R1-removebg-preview.png" alt="R1"></a> 
+</div>
+
+     
+  </footer>
+</body>
+</html>

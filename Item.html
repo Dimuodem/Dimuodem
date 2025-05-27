@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hardware System</title>
+  <link rel="stylesheet" href="Style1.css" />
+</head>
+<style>
+      h1 {
+      text-align: center;
+      color: #880808;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    th, td {
+      border: 2px dashed #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ffb6c1;
+      color: #000080;
+      font-size: 18px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #ffe4b5;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #98fb98;
+    }
+
+    button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 6px;
+      font-family: 'Comic Sans MS', cursive;
+    }
+
+    button:hover {
+      background-color: #da70d6;
+    }
+</style>
+
+<body>
+
+
+  <header>
+    <div class="container nav">
+      <img src="./removed.png" alt="Logo" class="logo" style="height: 150px; " />
+
+  <nav>
+     <a href="Index.html">Home</a>
+  <a href="Dashboard.html">Dashboard</a>
+
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Our Products</a>
+    <div class="dropdown-content">
+      <a href="Item.html">Items</a>
+      <a href= "cartegories.html">Categories</a>
+      <a href="Delivery.html">Deliveries</a>
+      <a href="NewItems.html">New Items</a>
+      
+    </div>
+  </div>
+
+  <a href="Contact.html">Support Centre</a>
+  <a href="Sign Up.html">Sign Up/Login</a>
+</nav>
+
+
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="Search for hardware..." />
+      <button class="search-btn">🔍</button>
+    </div>
+   </header>
+   <br>
+  <h1>Items Page</h1>
+
+<h1> Computer Hardware Store Inventory </h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price (KES)</th>
+      <th>Availability</th>
+      <th>In Our Store</th>
+      <th>Place Order</th>
+    </tr>
+    <!-- Example rows -->
+    <tr>
+      <td>Mouse</td>
+      <td>Wireless Optical Mouse</td>
+      <td>500</td>
+      <td>In Stock</td>
+      <td>Yes</td>
+      <td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Mouse" target="_blank"><button>Order</button></a></td>
+    </tr>
+    <tr>
+      <td>Keyboard</td>
+      <td>USB Mechanical Keyboard</td>
+      <td>1500</td>
+      <td>In Stock</td>
+      <td>Yes</td>
+      <td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Keyboard" target="_blank"><button>Order</button></a></td>
+    </tr>
+    <tr>
+      <td>RAM 8GB</td>
+      <td>DDR4 8GB RAM Stick</td>
+      <td>3000</td>
+      <td>Low Stock</td>
+      <td>Yes</td>
+      <td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%208GB%20RAM" target="_blank"><button>Order</button></a></td>
+    </tr>
+    <tr>
+      <td>ROM 500GB</td>
+      <td>SSD Storage Drive</td>
+      <td>5000</td>
+      <td>In Stock</td>
+      <td>Yes</td>
+      <td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20500GB%20ROM" target="_blank"><button>Order</button></a></td>
+    </tr>
+    <tr>
+      <td>Graphics Card</td>
+      <td>NVIDIA GTX 1660</td>
+      <td>25000</td>
+      <td>Out of Stock</td>
+      <td>No</td>
+      <td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Graphics%20Card" target="_blank"><button>Order</button></a></td>
+    </tr>
+
+    <!-- Add 25 more items similarly -->
+    <tr><td>Printer</td><td>All-in-One Inkjet Printer</td><td>10000</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Printer" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Monitor</td><td>24" LED Display</td><td>12000</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Monitor" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Motherboard</td><td>ATX Gaming Motherboard</td><td>18000</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Motherboard" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>CPU</td><td>Intel Core i5 11th Gen</td><td>22000</td><td>Low Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20CPU" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Power Supply</td><td>600W PSU</td><td>4500</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Power%20Supply" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Speakers</td><td>Bluetooth Desktop Speakers</td><td>3000</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Speakers" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Headphones</td><td>Over-Ear Headphones</td><td>2000</td><td>Low Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Headphones" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Webcam</td><td>HD USB Webcam</td><td>2500</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Webcam" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Microphone</td><td>USB Condenser Mic</td><td>3500</td><td>Out of Stock</td><td>No</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Microphone" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>External HDD</td><td>1TB External Drive</td><td>7000</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20External%20HDD" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Flash Drive</td><td>64GB USB 3.0</td><td>1000</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Flash%20Drive" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>UPS</td><td>1000VA Backup UPS</td><td>9500</td><td>Low Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20UPS" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Cooling Fan</td><td>120mm RGB Fan</td><td>800</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Cooling%20Fan" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Thermal Paste</td><td>High Performance Paste</td><td>400</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Thermal%20Paste" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>HDMI Cable</td><td>2 Meter HDMI Cable</td><td>350</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20HDMI%20Cable" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>LAN Cable</td><td>5 Meter CAT6</td><td>500</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20LAN%20Cable" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Wi-Fi Adapter</td><td>USB Wi-Fi Dongle</td><td>1200</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Wi-Fi%20Adapter" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Mouse Pad</td><td>Gaming Mouse Pad</td><td>300</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Mouse%20Pad" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Laptop Stand</td><td>Adjustable Aluminum</td><td>2500</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Laptop%20Stand" target="_blank"><button>Order</button></a></td></tr>
+    <tr><td>Cleaning Kit</td><td>Screen and Keyboard Cleaner</td><td>700</td><td>In Stock</td><td>Yes</td><td><a href="https://wa.me/254712345678?text=I%20want%20to%20order%20Cleaning%20Kit" target="_blank"><button>Order</button></a></td></tr>
+  </table>
+  <br><br>
+
+
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h2>lOCATION</h2>
+        <p>Located in Nairobi CBD
+           Koinange Street  </p>
+      </div>
+
+      <div class="footer-links">
+        <h2>LINKS</h2><br>
+        <a href="Dashboard.html">Dashboard</a><br>
+        <a href="Loans.html">Access Loan</a><br>
+        <a href="Contact.html">Contact Us</a>
+      </div>
+
+
+<div class="contact-icons">
+  <h2>CONTACTS</h2><br>
+  <a href=""><img src="./tiktok-removebg-preview.png" alt="TikTok"></a>
+  <a href=""><img src="./fb-removebg-preview.png" alt="Facebook"></a>
+   <a href=" "><img src="./MAIL-removebg-preview.png" alt="Email"></a>
+ <a href=""><img src="./R1-removebg-preview.png" alt="R1"></a> 
+</div>
+
+     
+  </footer>
+</body>
+</html>
